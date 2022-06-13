@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* FONT FOR THE APPLICATION */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* APPLY FONT */
+body, html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* CUSTOM SVG DESIGN WAVE */
+.svg-wave {
+    position: absolute;
+    top: 68px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+}
